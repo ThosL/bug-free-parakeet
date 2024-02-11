@@ -63,9 +63,10 @@ nav > a:hover{
     margin: 5% 5% 5% 5%;
     border:solid 6px #495E57;
     border-radius:6px;
-    background-image:url(images/photos/mussels-bruschetta-hero-opaque.png);
+    background-image:url('https://i.postimg.cc/BLg3w0wK/mussels-bruschetta-hero-opaque.png');
     background-color: #495E57;
-    background-position: right;
+    background-position: center;
+    background-size: cover;
     background-repeat:no-repeat;
     background-color:#495E57;
     outline: 6px solid #F4CE14;
@@ -131,18 +132,18 @@ nav > a:hover{
     text-align: center;
 }
 .item-book{
-    background-image:url("images/assets/item-book-opaque.png");
+    background-image:url("https://i.postimg.cc/L68ssWLd/item-book-opaque.png");
     align-self: flex-end;
     flex: 1;
 
 }
 .item-menu{
-    background-image:url("images/assets/item-meun-opaque.png");
+    background-image:url("https://i.postimg.cc/YCtTkcWg/item-meun-opaque.png");
     align-self:flex-start;
     flex: 1;
 }
 .item-hours{
-    background-image:url("images/assets/item-hours-opaque.png");
+    background-image:url("https://i.postimg.cc/DWGLGCpD/chef-item-opaque.png");
     align-self: center;
     flex: 1;
 }
@@ -171,6 +172,8 @@ footer >article{
     margin:0px auto;
     font-weight: bold;
     font-style: italic;
+    color:#495E57
+
 
 }
 #footer-logo{
