@@ -57,7 +57,7 @@ nav > a:hover{
 
 .large-item{
     margin-top:20px;
-    margin: 5% 20% 5% 20%;
+    margin: 5% 5% 5% 5%;
     border:solid 6px #495E57;
     border-radius:6px;
     background-image:url(images/photos/mussels-bruschetta-hero.jpg);
@@ -67,18 +67,21 @@ nav > a:hover{
     background-color:#495E57;
     outline: 6px solid #F4CE14;
     text-shadow:2px 2px #333333;
-    width: 75%;
+    width: 90%;
+    height:20%;
+    min-height: 450px;
     font-weight:bold;
     text-align:center;
     flex-grow: 3;
 }
 
 .large-item >h1{
-    color:white;
+    color:#F4CE14;
+    text-shadow: 2px 2px #333333;
 }
 .large-item > p{
-    color:white;
-    text-shadow: 1px;
+    color:#F4CE14;
+    text-shadow: 2px 2px #333333;
     
 }
 .item{
