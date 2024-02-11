@@ -4,14 +4,17 @@ body{
 }
 header{
     flex:3;
+    align-content: center;
+}
+header > img{
+    align-self: center;
+    margin:0px auto;
 }
 main{
     width: 80%;
 
     height:80%;
-    margin-top:10%;
-    margin-left: 10%;
-    margin-right:10%;
+    margin: 0% 10% 0% 10%;
     background-color: #EDEFEE;
     border:1px solid #EDEFEE;
     /* top-left | top-right | bottom-right | bottom-left */
@@ -60,7 +63,7 @@ nav > a:hover{
     margin: 5% 5% 5% 5%;
     border:solid 6px #495E57;
     border-radius:6px;
-    background-image:url(images/photos/mussels-bruschetta-hero.jpg);
+    background-image:url(images/photos/mussels-bruschetta-hero-opaque.png);
     background-color: #495E57;
     background-position: right;
     background-repeat:no-repeat;
@@ -69,19 +72,29 @@ nav > a:hover{
     text-shadow:2px 2px #333333;
     width: 90%;
     height:20%;
-    min-height: 450px;
+    max-height: 350px;
+    min-height: 350px;
     font-weight:bold;
     text-align:center;
     flex-grow: 3;
+    animation: fadeIn 2s;
+    
 }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 .large-item >h1{
     color:#F4CE14;
     text-shadow: 2px 2px #333333;
+    animation: fadeIn 3s;
 }
 .large-item > p{
     color:#F4CE14;
     text-shadow: 2px 2px #333333;
+    animation: fadeIn 5s;
+
     
 }
 .item{
